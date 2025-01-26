@@ -45,7 +45,7 @@ def modify_pixels():
 
 def main():
     path = os.getcwd()
-    logging.info(f"Starting opencv... {cv2.__version__}; {path}")
+    print(f"Starting opencv... {cv2.__version__}; {path}")
     files(path)
 
     modify_pixels()
